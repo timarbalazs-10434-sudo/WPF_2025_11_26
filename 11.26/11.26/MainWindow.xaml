@@ -12,8 +12,8 @@
             <RowDefinition Height="1*"/>
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
-        <TextBox x:Name="textbox" Grid.Row="0"/>
+        <TextBox x:Name="textbox" Grid.Row="0" FontSize="40" IsReadOnly="True" VerticalAlignment="Center" HorizontalAlignment="Center" Width="400" Height="70"/>
 
-        <Button x:Name="button" Grid.Row="2" Click="button_Click"/>
+        <Button x:Name="button" Content="Nyomd meg" FontSize="30" Grid.Row="2" Click="button_Click"/>
     </Grid>
 </Window>
