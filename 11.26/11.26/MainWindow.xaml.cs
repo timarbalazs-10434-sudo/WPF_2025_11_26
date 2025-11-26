@@ -16,14 +16,17 @@ namespace _11._26_
     /// </summary>
     public partial class MainWindow : Window
     {
+        int counter = 0;
         public MainWindow()
         {
             InitializeComponent();
+            textbox.Text = "0";
         }
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-
+            counter++;
+            textbox.Text = counter.ToString();
         }
     }
 }
